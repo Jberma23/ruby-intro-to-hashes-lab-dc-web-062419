@@ -1,5 +1,6 @@
 def new_hash
 new_hash = new.hash
+new_hash
 end
 
 def actor
@@ -23,7 +24,7 @@ end
 
 def monopoly_with_fourth_tier
 	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
-  onopoly =  {
+  monopoly =  {
     :railroads=>
     {
       :pieces=>4,
